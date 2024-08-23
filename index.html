@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario Semana 2</title>
+        <link rel="stylesheet" href="estilo.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="javascript.js"></script>
+        <script src="jquery.js"></script>
+    </head>   
+    <body>
+        <h2> Tarjeta de Crédito</h2>
+        <div class="formulario">
+            <form action="registrar.html" method="post">
+                <div class="campo">
+                    <input type="text" id="nombre" name="nombre" class="form-control" required>
+                </div>
+                <div class="campo">
+                    <input type="email" id="email" name="email" requerid>
+                </div>
+                <div class="input-group-append">
+                    <input type="text" id="ciudad" class="form-control" aria-describedby="basic-addon2">
+                    <span class="input-group-text" id="basic-addon2">ciudad</span>
+                  </div>
+                <div class="campo">
+                    <input type="number" id="edad" name="edad">
+                </div>
+                <div>
+                    <!--<button onclick="miFuncion()"  type="button" class="btn btn-success">Ingresar</button>-->
+                    <button  class="btn btn-success">Ingresar</button>
+                </div>
+            </form>
+        </div>
+    </body> 
+</html>
